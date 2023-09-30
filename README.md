@@ -20,7 +20,7 @@ ADMISSIONS.csv
 NOTEEVENTS.csv
 DIAGNOSES_ICD.csv
 
-These files contain information about patient admissions, notes from healthcare providers, and ICD-9 codes for diagnoses.
+ - These files contain information about patient admissions, notes from healthcare providers, and ICD-9 codes for diagnoses.
 
 # Pre-processing
 The data is pre-processed by filtering for heart failure admissions based on specific ICD-9 codes. Discharge summaries are also filtered and the longest one for each admission is kept. Admissions are labeled based on whether they resulted in a general readmission or a 30-day readmission.
